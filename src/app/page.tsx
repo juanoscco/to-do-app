@@ -141,7 +141,7 @@ export default function Home() {
                   <input
                     type="checkbox"className="checked:bg-blue-500"
                     checked={todo.completed}
-                    onClick={() => handleToggleTodo(todo.id)}
+                    onChange={() => handleToggleTodo(todo.id)}
                     
                   />
                   <p
